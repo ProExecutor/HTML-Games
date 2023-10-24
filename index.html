@@ -1,0 +1,23 @@
+<script>
+var div = document.createElement("div");
+div.setAttribute("data-height", "768");
+div.className = "game_frame game_loaded";
+div.style.width = "1024px";
+div.style.height = "768px";
+div.setAttribute("data-width", "1024");
+
+var iframe = document.createElement("iframe");
+iframe.src = "https://v6p9d9t4.ssl.hwcdn.net/html/1317921/index.html?v=1574335907";
+iframe.frameBorder = "0";
+iframe.allowFullscreen = "false";
+iframe.scrolling = "no";
+iframe.allow = "autoplay; fullscreen *; geolocation; microphone; camera; midi; monetization; xr-spatial-tracking; gamepad; gyroscope; accelerometer; xr; cross-origin-isolated";
+iframe.allowTransparency = "false";
+iframe.webkitallowfullscreen = "false";
+iframe.mozallowfullscreen = "false";
+iframe.msallowfullscreen = "false";
+iframe.id = "game_drop";
+
+div.appendChild(iframe);
+document.body.appendChild(div);
+</script>
